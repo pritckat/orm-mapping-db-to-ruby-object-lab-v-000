@@ -58,7 +58,7 @@ class Student
     WHERE grade < 12
     SQL
 
-    DB[:conn].execute(sql, grade)
+    DB[:conn].execute(sql)
   end
 
   def save
